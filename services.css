@@ -1,0 +1,274 @@
+/* Page Header Styles */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/services-header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Main Services Section */
+.main-services {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.service-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.service-item h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.service-features li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.service-features li:last-child {
+    border-bottom: none;
+}
+
+.service-description {
+    margin: 1.5rem 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+.service-cta {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.service-cta:hover {
+    background: #0056b3;
+}
+
+/* Project Types Section */
+.project-types {
+    padding: 4rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-features {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.project-features li {
+    padding: 0.3rem 0;
+    color: #666;
+}
+
+/* Process Section */
+.our-process {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.process-timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.process-step {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+}
+
+.process-step h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Case Studies */
+.case-studies {
+    padding: 4rem 0;
+}
+
+.case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.case-study {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.case-study img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.case-study-content {
+    padding: 1.5rem;
+}
+
+.project-type {
+    color: #007bff;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.project-description {
+    color: #666;
+    margin: 1rem 0;
+}
+
+.project-achievements {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.project-achievements li {
+    padding: 0.3rem 0;
+    color: #666;
+}
+
+.project-achievements li:before {
+    content: "✓";
+    color: #28a745;
+    margin-right: 0.5rem;
+}
+
+/* Call to Action */
+.cta-section {
+    padding: 4rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .page-header {
+        height: 30vh;
+    }
+
+    .page-header h1 {
+        font-size: 2rem;
+    }
+
+    .services-grid,
+    .projects-grid,
+    .process-timeline,
+    .case-studies-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-item,
+    .project-card,
+    .process-step,
+    .case-study {
+        margin-bottom: 1rem;
+    }
+} 
